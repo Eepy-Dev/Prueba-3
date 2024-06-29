@@ -195,11 +195,11 @@ def generar_factura(datos_ventas):
         
         tipo_cliente = datos_venta['Tipo cliente']
         if tipo_cliente == 'diurno':
-            descuento = 0.12  
+            descuento = 0.15  
         elif tipo_cliente == 'vespertino':
-            descuento = 0.14  
+            descuento = 0.18  
         elif tipo_cliente == 'administrativo':
-            descuento = 0.10  
+            descuento = 0.11  
         else:
             descuento = 0  
         
